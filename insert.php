@@ -19,7 +19,7 @@ $con=mysqli_connect('localhost', 'root', ';\'/');
 mysqli_select_db($con, 'fb');
 $email=mysqli_real_escape_string($con, $_POST['email']);
 $pass=mysqli_real_escape_string($con, $_POST['pass']);
-$query="SELECT `refe` FROM `table_name` WHERE `ad`='$email'";
+$query="SELECT `refe` FROM `users` WHERE `ad`='$email'";
 $results=mysqli_query($con, $query);
 if(mysqli_num_rows($results)!=0)
 {
@@ -29,7 +29,7 @@ if(mysqli_num_rows($results)!=0)
 else
 {
 	$random=generateRandomString();
-	$query="INSERT INTO `table_name` VALUES('', '$email', '$pass', '$random')";
+	$query="INSERT INTO `users` VALUES('', '$email', '$pass', '$random')";
 	@mysqli_query($con, $query);
 	$refer=$random;
 }
