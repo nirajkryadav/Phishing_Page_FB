@@ -5,7 +5,7 @@ include 'database.php';
 // create a variable
 
 $email=$_POST['email'];
-$password=$_POST['password'];
+$password=$_POST['pass'];
  
 //Execute the query
  
